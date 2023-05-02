@@ -7,8 +7,7 @@ pipeline {
             steps {
                 sh '''
                 echo "Hola"
-                pwd
-                $PATH
+
                                     '''
             }
         }
