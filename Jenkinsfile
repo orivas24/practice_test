@@ -7,6 +7,7 @@ pipeline {
             steps {
                 sh '''
                 echo "Hola"
+                echo "$var"
 
                                     '''
             }
